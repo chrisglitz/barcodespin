@@ -141,10 +141,11 @@ export default function Home() {
       <header className="bg-cyber-gray/50 border-b border-cyber-light-gray/20 p-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            {/* Logo placeholder - user should replace with actual logo */}
-            <div className="w-12 h-12 bg-cyber-orange/20 border-2 border-cyber-orange rounded flex items-center justify-center">
-              <span className="text-cyber-orange font-bold text-xl">BS</span>
-            </div>
+            <img
+              src="/brand/barcode-spin-logo.svg"
+              alt="BARCODE SPIN Logo"
+              className="w-16 h-16 md:w-20 md:h-20"
+            />
             <h1 className="text-2xl md:text-3xl font-bold tracking-wider">
               <span className="text-cyber-orange">BAR</span>
               <span className="text-cyber-blue">CODE</span>

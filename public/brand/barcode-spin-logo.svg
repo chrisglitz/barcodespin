@@ -1,0 +1,82 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="250" fill="#000000" stroke="url(#orangeGradient)" stroke-width="8"/>
+
+  <!-- Outer Ring Segments -->
+  <g transform="translate(256, 256)">
+    <!-- Top segments like a gauge/wheel -->
+    <path d="M -120 -140 L -110 -180 A 180 180 0 0 1 -80 -175 L -75 -135 Z" fill="#f6921e"/>
+    <path d="M -75 -135 L -80 -175 A 180 180 0 0 1 -45 -165 L -42 -125 Z" fill="#d9d9d9"/>
+    <path d="M -42 -125 L -45 -165 A 180 180 0 0 1 -10 -150 L -8 -110 Z" fill="#1b75bb"/>
+    <path d="M -8 -110 L -10 -150 A 180 180 0 0 1 25 -130 L 22 -90 Z" fill="#4d4d4d"/>
+    <path d="M 22 -90 L 25 -130 A 180 180 0 0 1 55 -105 L 48 -70 Z" fill="#f6921e"/>
+    <path d="M 48 -70 L 55 -105 A 180 180 0 0 1 80 -75 L 70 -50 Z" fill="#1b75bb"/>
+    <path d="M 70 -50 L 80 -75 A 180 180 0 0 1 100 -40 L 85 -25 Z" fill="#d9d9d9"/>
+    <path d="M 85 -25 L 100 -40 A 180 180 0 0 1 115 -5 L 95 0 Z" fill="#4d4d4d"/>
+
+    <!-- Mirror for other side -->
+    <path d="M 120 -140 L 110 -180 A 180 180 0 0 0 80 -175 L 75 -135 Z" fill="#f6921e"/>
+    <path d="M 75 -135 L 80 -175 A 180 180 0 0 0 45 -165 L 42 -125 Z" fill="#d9d9d9"/>
+    <path d="M 42 -125 L 45 -165 A 180 180 0 0 0 10 -150 L 8 -110 Z" fill="#1b75bb"/>
+    <path d="M 8 -110 L 10 -150 A 180 180 0 0 0 -25 -130 L -22 -90 Z" fill="#4d4d4d"/>
+    <path d="M -22 -90 L -25 -130 A 180 180 0 0 0 -55 -105 L -48 -70 Z" fill="#f6921e"/>
+    <path d="M -48 -70 L -55 -105 A 180 180 0 0 0 -80 -75 L -70 -50 Z" fill="#1b75bb"/>
+    <path d="M -70 -50 L -80 -75 A 180 180 0 0 0 -100 -40 L -85 -25 Z" fill="#d9d9d9"/>
+    <path d="M -85 -25 L -100 -40 A 180 180 0 0 0 -115 -5 L -95 0 Z" fill="#4d4d4d"/>
+  </g>
+
+  <!-- Center wheel -->
+  <circle cx="256" cy="180" r="60" fill="url(#centerGradient)" stroke="#f6921e" stroke-width="4"/>
+  <circle cx="256" cy="180" r="45" fill="#000000"/>
+  <circle cx="256" cy="180" r="20" fill="url(#orangeGradient)"/>
+
+  <!-- Decorative lines -->
+  <rect x="100" y="280" width="312" height="8" fill="url(#blueGradient)" rx="4"/>
+  <rect x="120" y="300" width="272" height="6" fill="url(#orangeGradient)" rx="3"/>
+
+  <!-- Text: BarCode -->
+  <text x="256" y="350" font-family="Arial, sans-serif" font-size="56" font-weight="900" text-anchor="middle" fill="url(#orangeGradient)" stroke="#000000" stroke-width="2">
+    Bar<tspan fill="url(#blueGradient)">Code</tspan>
+  </text>
+
+  <!-- Text: SPIN -->
+  <text x="256" y="410" font-family="Arial, sans-serif" font-size="64" font-weight="900" text-anchor="middle" fill="#d9d9d9" stroke="#000000" stroke-width="2">
+    SPIN
+  </text>
+
+  <!-- Corner accents -->
+  <line x1="60" y1="60" x2="100" y2="60" stroke="#f6921e" stroke-width="4"/>
+  <line x1="60" y1="60" x2="60" y2="100" stroke="#f6921e" stroke-width="4"/>
+
+  <line x1="452" y1="60" x2="412" y2="60" stroke="#1b75bb" stroke-width="4"/>
+  <line x1="452" y1="60" x2="452" y2="100" stroke="#1b75bb" stroke-width="4"/>
+
+  <line x1="60" y1="452" x2="100" y2="452" stroke="#1b75bb" stroke-width="4"/>
+  <line x1="60" y1="452" x2="60" y2="412" stroke="#1b75bb" stroke-width="4"/>
+
+  <line x1="452" y1="452" x2="412" y2="452" stroke="#f6921e" stroke-width="4"/>
+  <line x1="452" y1="452" x2="452" y2="412" stroke="#f6921e" stroke-width="4"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f6921e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6600;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b75bb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d5a99;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="centerGradient">
+      <stop offset="0%" style="stop-color:#f6921e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4d4d4d;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
