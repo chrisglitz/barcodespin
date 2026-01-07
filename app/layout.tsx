@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'BARCODE SPIN',
   description: 'Cybersecurity question picker wheel - spin to get your next conversation starter',
   icons: {
-    icon: '/brand/barcode-spin-logo.png',
+    icon: '/brand/barcodelogo.png',
   },
 };
 

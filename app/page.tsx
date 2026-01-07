@@ -142,7 +142,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img
-              src="/brand/barcode-spin-logo.png"
+              src="/brand/barcodelogo.png"
               alt="BARCODE SPIN Logo"
               className="w-16 h-16 md:w-20 md:h-20"
             />
